@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Dhruv Aggarwal</h1>
-<h3 align="center">🚀 Tech Explorer | AI Enthusiast | Web Developer | Open Source Contributor</h3>
+<h3 align="center">🚀 Tech Explorer | Data Analytics | AI Enthusiast | Web Developer |</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Dhruvagg5006&label=Profile%20views&color=0e75b6&style=flat" alt="Dhruvagg5006" />
@@ -10,10 +10,10 @@
 ### 🔥 About Me
 
 - 💻 Currently building **MediMiles+**, an AI-powered mental health platform
-- 🌱 Exploring **Machine Learning, Web3, MERN Stack, and Data Visualization**
+- 🌱 Exploring **Machine Learning, MERN Stack, and Data Visualization**
 - 💬 Ask me about **Python, Java, SQL, Web Dev, ML, or Dashboards**
 - 📫 Reach me at: **dhruvagg5006@gmail.com**
-- 🎨 Fun fact: I love painting Radha-Krishna and automating boring tasks
+- 🎨 Fun fact: I love automating boring tasks
 
 ---
 
