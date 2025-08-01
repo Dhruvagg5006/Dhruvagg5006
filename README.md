@@ -10,8 +10,8 @@
 ### 🔥 About Me
 
 - 💻 Currently building **MediMiles+**, an AI-powered mental health platform
-- 🌱 Exploring **Machine Learning, MERN Stack, and Data Visualization**
-- 💬 Ask me about **Python, Java, SQL, Web Dev, ML, or Dashboards**
+- 🌱 Exploring **Machine Learning and Data Analytics**
+- 💬 Ask me about **Python, Java, SQL, ML, Visualization or Dashboards**
 - 📫 Reach me at: **dhruvagg5006@gmail.com**
 - 🎨 Fun fact: I love automating boring tasks
 
@@ -55,16 +55,17 @@
 
 ### 🚀 Featured Projects
 
-- 🧠 **MediMiles+** — AI-based mental health diagnosis with blockchain integration
+-  **Smart Expense Tracker** - Making alerts according to budgets displaying on dashboard. 
 - 🌤 **Weather Dashboard** — Real-time weather visualizer using OpenWeatherMap API
 - 🔐 **Face Recognition System** — Python + OpenCV-based attendance/verification
-- 💳 **Travel Subscription Site** — Stripe-powered travel platform (MERN)
+-  ** Diabetes Preiction** - 
+
 
 ---
 
 ### 🌐 Let's Connect!
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/YOUR-ID)](https://linkedin.com/in/YOUR-ID)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/dhruv-aggarwal-768664314)](https://linkedin.com/in/dhruv-aggarwal-768664314)
 [![Gmail](https://img.shields.io/badge/-Gmail-red?style=flat-square&logo=Gmail&logoColor=white)](mailto:dhruvagg5006@gmail.com)
 
 ---
