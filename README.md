@@ -58,7 +58,7 @@
 -  **Smart Expense Tracker** - Making alerts according to budgets displaying on dashboard. 
 - 🌤 **Weather Dashboard** — Real-time weather visualizer using OpenWeatherMap API
 - 🔐 **Face Recognition System** — Python + OpenCV-based attendance/verification
--  ** Diabetes Preiction** - 
+-  ** Diabetes Prediction** - 
 
 
 ---
