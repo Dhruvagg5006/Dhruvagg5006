@@ -31,12 +31,11 @@
 
 ## 🚀 Featured Projects  
 
-🔹 **MediMiles+** → AI-powered mental health platform with doctor-patient meet & insurance prediction  
-🔹 **Smart Expense Tracker** → Power BI + Python-based automated expense analysis  
-🔹 **Weather Dashboard** → Real-time weather analytics with APIs & pandas  
+🔹 **She-ield** → She-ield is a women’s safety platform that enables instant SOS alerts, live location , secure audio recording and AI-powered distress detection  
+🔹 **StaySmart** → AI powered rental property System  like Airbnb style
+🔹 **HealLens** → AI powrered health vitals analysis System that measures SpO2, blood pressure , oxygen level using RPPG technology 
 🔹 **Face Recognition System** → Attendance using OpenCV face recognition  
-🔹 **Travel Subscription Platform** → Stripe-integrated MERN travel booking  
-🔹 **Portfolio Website** → Modern, responsive personal portfolio  
+
 
 
 <br>
