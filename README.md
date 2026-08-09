@@ -31,9 +31,9 @@
 
 ## 🚀 Featured Projects  
 
-🔹 **She-ield** → She-ield is a women’s safety platform that enables instant SOS alerts, live location , secure audio recording and AI-powered distress detection  
-🔹 **StaySmart** → AI powered rental property System  like Airbnb style
-🔹 **HealLens** → AI powrered health vitals analysis System that measures SpO2, blood pressure , oxygen level using RPPG technology 
+🔹 **She-ield** → She-ield is a women’s safety platform that enables instant SOS alerts, live location , secure audio recording and AI-powered distress detection  <br>
+🔹 **StaySmart** → AI powered rental property System  like Airbnb style <br>
+🔹 **HealLens** → AI powrered health vitals analysis System that measures SpO2, blood pressure , oxygen level using RPPG technology <br>
 🔹 **Face Recognition System** → Attendance using OpenCV face recognition  
 
 
