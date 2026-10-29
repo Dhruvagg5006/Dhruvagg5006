@@ -1,87 +1,55 @@
-<!-- ═══════════════ HEADER BANNER ═══════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:00F5FF&height=220&section=header&text=Dhruv%20Aggarwal&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Tech%20Explorer%20%E2%80%A2%20AI%20%26%20ML%20%E2%80%A2%20Backend%20%E2%80%A2%20Data%20Analytics&descSize=18&descAlignY=60&animation=fadeIn" alt="Dhruv Aggarwal — Tech Explorer, AI & ML, Backend, Data Analytics" width="100%"/>
+<img src="assets/banners/header.svg" alt="Dhruv Aggarwal — AI / ML • Backend • Data Analytics" width="100%"/>
 
 <a href="https://github.com/Dhruvagg5006">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=760&lines=Hello+there!+%F0%9F%91%8B;I+build+AI+%2B+backend+systems+that+solve+real+problems;Python+%E2%86%92+FastAPI+%E2%86%92+Machine+Learning;Currently+building+She-ield+%E2%80%A2+Women%27s+Safety+Platform;I+love+automating+boring+stuff" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=760&lines=Hello+there!+%F0%9F%91%8B;I+build+AI+%2B+backend+systems+that+ship.;Python+%E2%86%92+FastAPI+%E2%86%92+Machine+Learning;Currently+building+She-ield+%E2%80%A2+Women%27s+Safety;I+love+automating+boring+stuff" alt="Typing intro"/>
 </a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Dhruvagg5006&label=Profile+views&color=00F5FF&style=for-the-badge" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/Dhruvagg5006?label=Followers&style=for-the-badge&logo=github&color=203A43" alt="Followers"/>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
+<img src="assets/dividers/rainbow.svg" width="100%" alt=""/>
 
 ## 🚀 About Me
 
-```text
-dhruv@github:~$ whoami
-Dhruv Aggarwal — Tech Explorer | AI Enthusiast | ML | Backend Developer | Data Analyst
+<img src="assets/about-terminal.svg" width="62%" alt="Terminal: whoami — Dhruv Aggarwal, AI/ML & Backend Developer"/> <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="35%" alt="Developer coding at a desk"/>
 
-dhruv@github:~$ cat about.txt
-💡 Passionate about software development, AI, data and building impactful projects
-🌱 Currently working on She-ield — an AI-powered safety platform for women
-🛠  Exploring Machine Learning | Data Analytics | Backend (FastAPI) | AWS
-🎨 Fun fact: I love automating boring stuff!
-
-dhruv@github:~$ mail --to me
-📫 dhruvagg5006@gmail.com
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
+<img src="assets/dividers/aqua.svg" width="100%" alt=""/>
 
 ## 🛠️ Skills & Technologies
 
-### 🧑‍💻 Languages
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### 🧑‍💻 Languages
+<img src="https://skillicons.dev/icons?i=py,java,c,js,ts,html,css" alt="Python, Java, C, JavaScript, TypeScript, HTML, CSS"/>
 
 ### 🤖 AI / ML & Data
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,opencv,numpy,pandas" alt="PyTorch, scikit-learn, OpenCV, NumPy, Pandas"/>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-0C55A5?style=for-the-badge&logo=scipy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+<sub>SciPy · Matplotlib · Plotly · Streamlit · Power BI</sub>
 
-### ⚙️ Backend
+### ⚙️ Backend & Frontend
+<img src="https://skillicons.dev/icons?i=fastapi,flask,react,postman" alt="FastAPI, Flask, React, Postman"/>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<sub>Twilio · REST APIs</sub>
 
 ### 🗄️ Databases
+<img src="https://skillicons.dev/icons?i=mysql,sqlite" alt="MySQL, SQLite"/>
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/Amazon_DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+<sub>Amazon DynamoDB</sub>
 
 ### ☁️ Cloud, Deployment & Tools
+<img src="https://skillicons.dev/icons?i=aws,heroku,netlify,vercel,git,github" alt="AWS, Heroku, Netlify, Vercel, Git, GitHub"/>
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
+### ✨ Daily Drivers
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80" alt="Python"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80" alt="JavaScript"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80" alt="VS Code"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4a6b.gif" width="80" alt="Git"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
+</div>
+
+<img src="assets/dividers/sunset.svg" width="100%" alt=""/>
 
 ## 🚀 Featured Projects
 
@@ -124,45 +92,38 @@ dhruv@github:~$ mail --to me
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
+<img src="assets/dividers/rainbow.svg" width="100%" alt=""/>
 
 ## 📈 Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Dhruvagg5006&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" width="100%"/>
-
-<img height="170" src="https://github-readme-stats.shiion.dev/api?username=Dhruvagg5006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.shiion.dev/api/top-langs/?username=Dhruvagg5006&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Most used languages"/>
-
-<img src="https://streak-stats.demolab.com/?user=Dhruvagg5006&theme=github_dark&hide_border=false" alt="Contribution streak"/>
-
+<img src="assets/activity-graph.svg" width="100%" alt="Contribution activity over the last 31 days"/>
 <br/>
+<sub>Every stat on this page is regenerated automatically by GitHub Actions.</sub>
 
-<img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/github-snake-dark.svg" alt="Contribution snake eating my contribution graph" width="100%"/>
+<img src="assets/stats.svg" width="49%" alt="GitHub stats"/> <img src="assets/languages.svg" width="49%" alt="Most used languages"/>
+
+<img src="assets/streak.svg" width="100%" alt="Contribution streak"/>
+
+<img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/snake-dark.svg" width="100%" alt="Contribution snake eating my contribution graph"/>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider"/>
+<img src="assets/dividers/rainbow.svg" width="100%" alt=""/>
 
 ## 🌐 Connect With Me
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:dhruvagg5006@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/Dhruvagg5006"><img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
+<a href="mailto:dhruvagg5006@gmail.com" title="Email"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail"/></a>
+<a href="https://github.com/Dhruvagg5006" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
 
 <br/><br/>
 
-💡 *Random Dev Quote*
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random dev quote"/>
-
-<br/>
-
 ✨ *Always learning, always improving — let's build something amazing together!*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:203A43,100:0F2027&height=120&section=footer" alt="footer" width="100%"/>
+<img src="assets/banners/footer.svg" width="100%" alt=""/>
 
 </div>
