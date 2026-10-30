@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banners/header.png" alt="Dhruv Aggarwal — AI / ML • Backend • Data" width="100%"/>
+<img src="header.png" alt="Dhruv Aggarwal — AI / ML • Backend • Data" width="100%"/>
 
 <a href="https://github.com/Dhruvagg5006">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=760&lines=Hello+there!+%F0%9F%91%8B;I+build+AI+%2B+backend+systems+that+ship.;Python+%E2%86%92+FastAPI+%E2%86%92+Machine+Learning;Currently+building+She-ield+%E2%80%A2+Women%27s+Safety;I+love+automating+boring+stuff" alt="Typing intro"/>
@@ -8,14 +8,14 @@
 
 </div>
 
-<img src="assets/dividers/rainbow.svg" width="100%" alt=""/>
+<img src="rainbow.svg" width="100%" alt=""/>
 
 ## 🚀 About Me
 
 <table>
   <tr>
     <td width="62%" valign="middle">
-      <img src="assets/about-terminal.png" width="100%" alt="Terminal: whoami — Dhruv Aggarwal, AI & Backend Engineer"/>
+      <img src="about-terminal.png" width="100%" alt="Terminal: whoami — Dhruv Aggarwal, AI & Backend Engineer"/>
     </td>
     <td width="38%" align="center" valign="middle">
       <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" alt="Developer coding at a desk"/>
@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-<img src="assets/dividers/aqua.svg" width="100%" alt=""/>
+<img src="aqua.svg" width="100%" alt=""/>
 
 ## 🛠️ Skills & Technologies
 
@@ -58,7 +58,7 @@
 
 </div>
 
-<img src="assets/dividers/sunset.svg" width="100%" alt=""/>
+<img src="sunset.svg" width="100%" alt=""/>
 
 ## 🚀 Featured Projects
 
@@ -101,26 +101,26 @@
   </tr>
 </table>
 
-<img src="assets/dividers/rainbow.svg" width="100%" alt=""/>
+<img src="rainbow.svg" width="100%" alt=""/>
 
 ## 📈 Activity
 
 <div align="center">
 
-<img src="assets/activity-graph.svg" width="100%" alt="Contribution activity over the last 31 days"/>
+<img src="activity-graph.svg" width="100%" alt="Contribution activity over the last 31 days"/>
 <br/>
 <sub>Every stat on this page is regenerated automatically by GitHub Actions.</sub>
 <br/><br/>
 
-<img src="assets/stats.svg" width="49%" alt="GitHub stats"/> <img src="assets/languages.svg" width="49%" alt="Most used languages"/>
+<img src="stats.svg" width="49%" alt="GitHub stats"/> <img src="languages.svg" width="49%" alt="Most used languages"/>
 
-<img src="assets/streak.svg" width="100%" alt="Contribution streak"/>
+<img src="streak.svg" width="100%" alt="Contribution streak"/>
 
 <img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/snake-dark.svg" width="100%" alt="Contribution snake eating my contribution graph"/>
 
 </div>
 
-<img src="assets/dividers/rainbow.svg" width="100%" alt=""/>
+<img src="rainbow.svg" width="100%" alt=""/>
 
 ## 🌐 Connect With Me
 
@@ -132,6 +132,6 @@
 
 <br/><br/>
 
-<img src="assets/banners/footer.png" width="100%" alt="Always learning, always improving — let's build something amazing together"/>
+<img src="footer.png" width="100%" alt="Always learning, always improving — let's build something amazing together"/>
 
 </div>
