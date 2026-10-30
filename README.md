@@ -107,12 +107,14 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Dhruvagg5006&theme=tokyo-night&bg_color=0d1117&hide_border=true&area=true&custom_title=Dhruv%20Aggarwal%27s%20Contribution%20Graph" width="100%" alt="Contribution activity graph"/>
+<img src="assets/activity-graph.svg" width="100%" alt="Contribution activity over the last 31 days"/>
+<br/>
+<sub>Every stat on this page is regenerated automatically by GitHub Actions.</sub>
+<br/><br/>
 
-<img height="180" src="https://github-readme-stats.shiion.dev/api?username=Dhruvagg5006&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.shiion.dev/api/top-langs/?username=Dhruvagg5006&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Most used languages"/>
+<img src="assets/stats.svg" width="49%" alt="GitHub stats"/> <img src="assets/languages.svg" width="49%" alt="Most used languages"/>
 
-<img src="https://streak-stats.demolab.com/?user=Dhruvagg5006&theme=tokyonight&hide_border=false" alt="Contribution streak"/>
+<img src="assets/streak.svg" width="100%" alt="Contribution streak"/>
 
 <img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/snake-dark.svg" width="100%" alt="Contribution snake eating my contribution graph"/>
 
