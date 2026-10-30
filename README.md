@@ -32,10 +32,25 @@
 ### 🧑‍💻 Languages
 <img src="https://skillicons.dev/icons?i=py,java,c,js,ts,html,css" alt="Python, Java, C, JavaScript, TypeScript, HTML, CSS"/>
 
-### 🤖 AI / ML & Data
+### 🤖 AI / ML
 <img src="https://skillicons.dev/icons?i=pytorch,sklearn,opencv,numpy,pandas" alt="PyTorch, scikit-learn, OpenCV, NumPy, Pandas"/>
 
-<sub>SciPy · Matplotlib · Plotly · Streamlit · Power BI</sub>
+<sub>SciPy · Matplotlib · Plotly · Streamlit</sub>
+
+### 📊 Data Analytics & Data Engineering
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,r" alt="PostgreSQL, MongoDB, R"/>
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
 
 ### ⚙️ Backend & Frontend
 <img src="https://skillicons.dev/icons?i=fastapi,flask,react,postman" alt="FastAPI, Flask, React, Postman"/>
