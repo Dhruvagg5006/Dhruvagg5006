@@ -1,152 +1,128 @@
+<!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="header.png" alt="Dhruv Aggarwal — AI / ML • Backend • Data" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:F2C811&height=200&section=header&text=Dhruv%20Aggarwal&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20%E2%80%A2%20Backend%20%E2%80%A2%20Data%20Analytics&descSize=18&descAlignY=60&animation=fadeIn" alt="header" width="100%"/>
 
 <a href="https://github.com/Dhruvagg5006">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=760&lines=Hello+there!+%F0%9F%91%8B;I+build+AI+%2B+backend+systems+that+ship.;Python+%E2%86%92+FastAPI+%E2%86%92+Machine+Learning;Currently+building+She-ield+%E2%80%A2+Women%27s+Safety;I+love+automating+boring+stuff" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=900&color=F2C811&center=true&vCenter=true&width=700&lines=Building+AI-powered+products;FastAPI+%E2%80%A2+Python+%E2%80%A2+Machine+Learning;Turning+raw+data+into+Power+BI+stories;I+love+automating+boring+stuff" alt="Typing SVG" />
 </a>
 
-</div>
+<br/>
 
-<img src="rainbow.svg" width="100%" alt=""/>
-
-## 🚀 About Me
-
-<table>
-  <tr>
-    <td width="62%" valign="middle">
-      <img src="about-terminal.png" width="100%" alt="Terminal: whoami — Dhruv Aggarwal, AI & Backend Engineer"/>
-    </td>
-    <td width="38%" align="center" valign="middle">
-      <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" alt="Developer coding at a desk"/>
-    </td>
-  </tr>
-</table>
-
-<img src="aqua.svg" width="100%" alt=""/>
-
-## 🛠️ Skills & Technologies
-
-<div align="center">
-
-### 🧑‍💻 Languages
-<img src="https://skillicons.dev/icons?i=py,java,c,js,ts,html,css" alt="Python, Java, C, JavaScript, TypeScript, HTML, CSS"/>
-
-### 🤖 AI / ML
-<img src="https://skillicons.dev/icons?i=pytorch,sklearn,opencv,numpy,pandas" alt="PyTorch, scikit-learn, OpenCV, NumPy, Pandas"/>
-
-<sub>SciPy · Matplotlib · Plotly · Streamlit</sub>
-
-### 📊 Data Analytics & Data Engineering
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,r" alt="PostgreSQL, MongoDB, R"/>
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
-
-### ⚙️ Backend & Frontend
-<img src="https://skillicons.dev/icons?i=fastapi,flask,react,postman" alt="FastAPI, Flask, React, Postman"/>
-
-<sub>Twilio · REST APIs</sub>
-
-### 🗄️ Databases
-<img src="https://skillicons.dev/icons?i=mysql,sqlite" alt="MySQL, SQLite"/>
-
-<sub>Amazon DynamoDB</sub>
-
-### ☁️ Cloud, Deployment & Tools
-<img src="https://skillicons.dev/icons?i=aws,heroku,netlify,vercel,git,github" alt="AWS, Heroku, Netlify, Vercel, Git, GitHub"/>
-
-### ✨ Daily Drivers
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80" alt="Python"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80" alt="JavaScript"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80" alt="VS Code"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4a6b.gif" width="80" alt="Git"/>
+<img src="https://komarev.com/ghpvc/?username=Dhruvagg5006&label=Profile%20Views&color=2c5364&style=for-the-badge" alt="views"/>
+<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:dhruvagg5006@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
-<img src="sunset.svg" width="100%" alt=""/>
+---
+
+## 👨‍💻 About Me
+
+```yaml
+name: Dhruv Aggarwal
+focus:
+  - Machine Learning & AI
+  - Backend development (FastAPI)
+  - Data analytics & Power BI dashboards
+  - Cloud (AWS)
+now_building: She-ield — AI-powered women's safety platform
+fun_fact: I automate anything I have to do twice
+```
+
+---
+
+## 🛠️ Tech Stack
+
+All badges use **one consistent style** (`for-the-badge`) so nothing looks mismatched.
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Backend & Cloud**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+
+**AI / ML / Data**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+**Tools & Deployment**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+---
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/Aayansh-singh-24/She-ield">She-ield</a></h3>
-      <p>Women's safety platform with instant SOS alerts, live location sharing, secure audio recording, trusted contacts and AI-powered distress detection.</p>
-      <p><img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏠 <a href="https://github.com/Dhruvagg5006/StaySmart">StaySmart</a></h3>
-      <p>AI-powered rental property system in the style of Airbnb.</p>
-      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/AI-00F5FF?style=flat-square" alt="AI"/></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🩺 <a href="https://github.com/Dhruvagg5006/HealLens">HealLens</a></h3>
-      <p>AI-powered health vitals analysis that estimates SpO2, blood pressure and oxygen level using rPPG technology.</p>
-      <p><img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🙂 Face Recognition System</h3>
-      <p>Automated attendance using OpenCV face recognition.</p>
-      <p><img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💳 <a href="https://github.com/Dhruvagg5006/Credit-Card-Fraud-Detection">Credit Card Fraud Detection</a></h3>
-      <p>Machine learning model to detect fraudulent card transactions.</p>
-      <p><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn"/></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💰 <a href="https://github.com/Dhruvagg5006/Smart_Expense_Tracker">Smart Expense Tracker</a></h3>
-      <p>Expense tracking and spending analysis built with Python data tools.</p>
-      <p><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/></p>
-    </td>
-  </tr>
-</table>
+| Project | What it does | Stack |
+|---|---|---|
+| **[She-ield](https://github.com/Aayansh-singh-24/She-ield)** | Women's safety platform: instant SOS alerts, live location, secure audio recording, AI distress detection | FastAPI · React · ML |
+| **[StaySmart](https://github.com/Dhruvagg5006/StaySmart)** | AI-powered Airbnb-style rental system | TypeScript |
+| **[HealLens](https://github.com/Dhruvagg5006/HealLens)** | Estimates vitals (SpO₂, BP) from video using rPPG | Python · OpenCV |
+| **[Credit-Card-Fraud-Detection](https://github.com/Dhruvagg5006/Credit-Card-Fraud-Detection)** | ML model to flag fraudulent transactions | Jupyter · scikit-learn |
+| **[Smart_Expense_Tracker](https://github.com/Dhruvagg5006/Smart_Expense_Tracker)** | Expense tracking & analysis | Jupyter · Pandas |
 
-<img src="rainbow.svg" width="100%" alt=""/>
+---
 
-## 📈 Activity
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="activity-graph.svg" width="100%" alt="Contribution activity over the last 31 days"/>
-<br/>
-<sub>Every stat on this page is regenerated automatically by GitHub Actions.</sub>
-<br/><br/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Dhruvagg5006&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvagg5006&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="languages"/>
 
-<img src="stats.svg" width="49%" alt="GitHub stats"/> <img src="languages.svg" width="49%" alt="Most used languages"/>
+<img src="https://streak-stats.demolab.com/?user=Dhruvagg5006&theme=tokyonight&hide_border=true" alt="streak"/>
 
-<img src="streak.svg" width="100%" alt="Contribution streak"/>
-
-<img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/snake-dark.svg" width="100%" alt="Contribution snake eating my contribution graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Dhruvagg5006&theme=tokyo-night&hide_border=true&area=true" alt="activity graph" width="100%"/>
 
 </div>
 
-<img src="rainbow.svg" width="100%" alt=""/>
+---
 
-## 🌐 Connect With Me
+## 🐍 My contribution snake
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>
-<a href="mailto:dhruvagg5006@gmail.com" title="Email"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail"/></a>
-<a href="https://github.com/Dhruvagg5006" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"/></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/github-snake.svg" />
+</picture>
 
-<br/><br/>
+</div>
 
-<img src="footer.png" width="100%" alt="Always learning, always improving — let's build something amazing together"/>
+---
+
+<div align="center">
+
+*Always learning, always improving — let's build something amazing together!*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F2C811,50:2c5364,100:0f2027&height=100&section=footer" width="100%" alt="footer"/>
 
 </div>
