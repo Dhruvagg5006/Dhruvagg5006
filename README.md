@@ -116,7 +116,7 @@
 
 <img src="streak.svg" width="100%" alt="Contribution streak"/>
 
-<img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/snake-dark.svg" width="100%" alt="Contribution snake eating my contribution graph"/>
+<img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/snake-dark.svg" width="100%" alt="Contribution snake eating my contribution graph"/>
 
 </div>
 
