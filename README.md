@@ -1,74 +1,86 @@
 <div align="center">
 
-<img src="header.png" width="100%" alt="Dhruv Aggarwal"/>
+<img src="./assets/banners/header.svg" alt="Dhruv Aggarwal: Machine Learning and AI, Backend, Data Analytics, Cloud" width="100%"/>
 
-<a href="https://github.com/Dhruvagg5006">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=F2C811&center=true&vCenter=true&width=760&lines=Hello+there!+I+build+AI+%2B+data+products;Data+Science+%E2%86%92+Power+BI+dashboards;Data+Engineering+%E2%80%A2+FastAPI+%E2%80%A2+AWS;I+automate+anything+I+have+to+do+twice" alt="Typing intro"/>
-</a>
+<img src="./assets/banners/typing.svg" alt="Building AI-powered products. FastAPI, Python, Machine Learning. Turning raw data into Power BI stories. I automate anything I have to do twice." width="760"/>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="./assets/icons/linkedin.svg" alt="LinkedIn" height="40"/></a>&nbsp;
+<a href="https://github.com/Dhruvagg5006"><img src="./assets/icons/github.svg" alt="GitHub" height="40"/></a>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=Dhruvagg5006&label=Profile%20Views&color=2c5364&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
-<img src="rainbow.svg" width="100%"/>
+<img src="./assets/dividers/rainbow.svg" alt="" width="100%"/>
 
 ## 🚀 About Me
 
-<div align="center"><img src="about-terminal.png" width="85%" alt="whoami"/></div>
+<div align="center">
+<img src="./assets/about-terminal.svg" alt="Terminal: whoami, Dhruv Aggarwal. Focus: machine learning and AI, FastAPI backend, Power BI analytics, AWS. Now building She-ield, an AI-powered women's safety platform. Fun fact: I automate anything I have to do twice."/>
+</div>
 
-<img src="aqua.svg" width="100%"/>
+<img src="./assets/dividers/aqua.svg" alt="" width="100%"/>
 
 ## 🛠️ Skills & Technologies
 
 ### 🧑‍💻 Languages
-<img src="assets/skills/languages.svg" width="100%"/>
+<img src="./assets/skills/languages.svg" alt="Python, Java, C, JavaScript, HTML5, CSS3"/>
 
-### 🤖 Data Science & ML
-<img src="assets/skills/datascience.svg" width="100%"/>
+### 🤖 AI / ML / Data
+<img src="./assets/skills/ai.svg" alt="PyTorch, scikit-learn, OpenCV, NumPy, Pandas, SciPy, Plotly, Streamlit, Power BI"/>
 
-### 📊 Data Analytics & BI
-<img src="assets/skills/analytics.svg" width="100%"/>
+### ⚙️ Backend
+<img src="./assets/skills/backend.svg" alt="FastAPI, Flask, Twilio"/>
 
-### 🏗️ Data Engineering
-<img src="assets/skills/dataeng.svg" width="100%"/>
+### 🗄️ Databases
+<img src="./assets/skills/databases.svg" alt="MySQL, SQLite, DynamoDB"/>
 
-### ⚙️ Backend & Databases
-<img src="assets/skills/backend.svg" width="100%"/>
+### ☁️ Cloud, Deployment & Tools
+<img src="./assets/skills/cloud.svg" alt="AWS, Git, GitHub, Postman, Vercel, Netlify, Heroku"/>
 
-### ☁️ Cloud & Tools
-<img src="assets/skills/cloud.svg" width="100%"/>
+### ✨ Daily Drivers
+<img src="./assets/skills/drivers.svg" alt="Daily drivers: Python, FastAPI, PyTorch, Power BI, AWS"/>
 
-### 📈 Skill Progress
-<img src="assets/skills/progress.svg" width="100%"/>
-
-<img src="sunset.svg" width="100%"/>
+<img src="./assets/dividers/sunset.svg" alt="" width="100%"/>
 
 ## 🚀 Featured Projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**She-ield**](https://github.com/Aayansh-singh-24/She-ield) | Women's safety platform: SOS, live location, AI distress detection | FastAPI · React · ML |
+| [**She-ield**](https://github.com/Aayansh-singh-24/She-ield) | Women's safety platform: instant SOS alerts, live location, secure audio recording, AI distress detection | FastAPI · React · ML |
 | [**StaySmart**](https://github.com/Dhruvagg5006/StaySmart) | AI-powered Airbnb-style rental system | TypeScript |
 | [**HealLens**](https://github.com/Dhruvagg5006/HealLens) | Estimates vitals (SpO₂, BP) from video using rPPG | Python · OpenCV |
-| [**Credit-Card-Fraud-Detection**](https://github.com/Dhruvagg5006/Credit-Card-Fraud-Detection) | ML model to flag fraudulent transactions | scikit-learn |
-| [**Smart_Expense_Tracker**](https://github.com/Dhruvagg5006/Smart_Expense_Tracker) | Expense tracking & analysis | Pandas |
+| [**Credit-Card-Fraud-Detection**](https://github.com/Dhruvagg5006/Credit-Card-Fraud-Detection) | ML model to flag fraudulent transactions | Jupyter · scikit-learn |
+| [**Smart_Expense_Tracker**](https://github.com/Dhruvagg5006/Smart_Expense_Tracker) | Expense tracking & analysis | Jupyter · Pandas |
 
-<img src="rainbow.svg" width="100%"/>
+<img src="./assets/dividers/aqua.svg" alt="" width="100%"/>
 
 ## 📈 Activity
 
-<img src="activity-graph.svg" width="100%"/>
+<div align="center">
 
-<sub>Every stat on this page is regenerated automatically by GitHub Actions.</sub>
+<img src="./activity-graph.svg" alt="Contribution activity graph" width="100%"/>
 
-<img src="stats.svg" width="49%"/> <img src="languages.svg" width="49%"/>
+<img src="./stats.svg" alt="GitHub stats" height="165"/> <img src="./languages.svg" alt="Most used languages" height="165"/>
 
-<img src="streak.svg" width="100%"/>
+<img src="./streak.svg" alt="Contribution streak"/>
 
-<img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/github-snake.svg" width="100%" alt="snake"/>
+<img src="https://raw.githubusercontent.com/Dhruvagg5006/Dhruvagg5006/output/github-snake.svg" alt="Contribution snake eating my contribution graph" width="100%"/>
 
-<img src="aqua.svg" width="100%"/>
+</div>
+
+<img src="./assets/dividers/rainbow.svg" alt="" width="100%"/>
 
 ## 🌐 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-aggarwal-768664314) ![Gmail](https://img.shields.io/badge/Gmail-Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+<div align="center">
 
-<img src="footer.png" width="100%"/>
+<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="./assets/icons/linkedin.svg" alt="LinkedIn" height="44"/></a>&nbsp;&nbsp;
+<a href="https://github.com/Dhruvagg5006"><img src="./assets/icons/github.svg" alt="GitHub" height="44"/></a>
+
+<br/><br/>
+
+<img src="./assets/banners/footer.svg" alt="Always learning, always improving. Let's build something amazing together." width="100%"/>
+
+</div>
