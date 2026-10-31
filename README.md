@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/banners/header.svg" alt="Dhruv Aggarwal: Machine Learning and AI, Backend, Data Analytics, Cloud" width="100%"/>
+<img src="header.svg" alt="Dhruv Aggarwal: Machine Learning and AI, Backend, Data Analytics, Cloud" width="100%"/>
 
-<img src="./assets/banners/typing.svg" alt="Building AI-powered products. FastAPI, Python, Machine Learning. Turning raw data into Power BI stories. I automate anything I have to do twice." width="760"/>
+<img src="typing.svg" alt="Building AI-powered products. FastAPI, Python, Machine Learning. Turning raw data into Power BI stories. I automate anything I have to do twice." width="760"/>
 
 <br/>
 
@@ -12,37 +12,37 @@
 
 </div>
 
-<img src="./assets/dividers/rainbow.svg" alt="" width="100%"/>
+<img src="rainbow.svg" alt="" width="100%"/>
 
 ## 🚀 About Me
 
 <div align="center">
-<img src="./assets/about-terminal.svg" alt="Terminal: whoami, Dhruv Aggarwal. Focus: machine learning and AI, FastAPI backend, Power BI analytics, AWS. Now building She-ield, an AI-powered women's safety platform. Fun fact: I automate anything I have to do twice."/>
+<img src="about-terminal.svg" alt="Terminal: whoami, Dhruv Aggarwal. Focus: machine learning and AI, FastAPI backend, Power BI analytics, AWS. Now building She-ield, an AI-powered women's safety platform. Fun fact: I automate anything I have to do twice."/>
 </div>
 
-<img src="./assets/dividers/aqua.svg" alt="" width="100%"/>
+<img src="aqua.svg" alt="" width="100%"/>
 
 ## 🛠️ Skills & Technologies
 
 ### 🧑‍💻 Languages
-<img src="./assets/skills/languages.svg" alt="Python, Java, C, JavaScript, HTML5, CSS3"/>
+<img src="languages.svg" alt="Python, Java, C, JavaScript, HTML5, CSS3"/>
 
 ### 🤖 AI / ML / Data
-<img src="./assets/skills/ai.svg" alt="PyTorch, scikit-learn, OpenCV, NumPy, Pandas, SciPy, Plotly, Streamlit, Power BI"/>
+<img src="ai.svg" alt="PyTorch, scikit-learn, OpenCV, NumPy, Pandas, SciPy, Plotly, Streamlit, Power BI"/>
 
 ### ⚙️ Backend
-<img src="./assets/skills/backend.svg" alt="FastAPI, Flask, Twilio"/>
+<img src="backend.svg" alt="FastAPI, Flask, Twilio"/>
 
 ### 🗄️ Databases
-<img src="./assets/skills/databases.svg" alt="MySQL, SQLite, DynamoDB"/>
+<img src="databases.svg" alt="MySQL, SQLite, DynamoDB"/>
 
 ### ☁️ Cloud, Deployment & Tools
-<img src="./assets/skills/cloud.svg" alt="AWS, Git, GitHub, Postman, Vercel, Netlify, Heroku"/>
+<img src="cloud.svg" alt="AWS, Git, GitHub, Postman, Vercel, Netlify, Heroku"/>
 
 ### ✨ Daily Drivers
-<img src="./assets/skills/drivers.svg" alt="Daily drivers: Python, FastAPI, PyTorch, Power BI, AWS"/>
+<img src="drivers.svg" alt="Daily drivers: Python, FastAPI, PyTorch, Power BI, AWS"/>
 
-<img src="./assets/dividers/sunset.svg" alt="" width="100%"/>
+<img src="sunset.svg" alt="" width="100%"/>
 
 ## 🚀 Featured Projects
 
@@ -54,7 +54,7 @@
 | [**Credit-Card-Fraud-Detection**](https://github.com/Dhruvagg5006/Credit-Card-Fraud-Detection) | ML model to flag fraudulent transactions | Jupyter · scikit-learn |
 | [**Smart_Expense_Tracker**](https://github.com/Dhruvagg5006/Smart_Expense_Tracker) | Expense tracking & analysis | Jupyter · Pandas |
 
-<img src="./assets/dividers/aqua.svg" alt="" width="100%"/>
+<img src="aqua.svg" alt="" width="100%"/>
 
 ## 📈 Activity
 
@@ -70,7 +70,7 @@
 
 </div>
 
-<img src="./assets/dividers/rainbow.svg" alt="" width="100%"/>
+<img src="rainbow.svg" alt="" width="100%"/>
 
 ## 🌐 Connect With Me
 
@@ -81,6 +81,6 @@
 
 <br/><br/>
 
-<img src="./assets/banners/footer.svg" alt="Always learning, always improving. Let's build something amazing together." width="100%"/>
+<img src="footer.svg" alt="Always learning, always improving. Let's build something amazing together." width="100%"/>
 
 </div>
