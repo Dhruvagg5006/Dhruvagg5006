@@ -17,7 +17,7 @@
 ## 🚀 About Me
 
 <div align="center">
-<img src="about-terminal(1).svg" alt="Terminal: whoami, Dhruv Aggarwal. Focus: machine learning and AI, FastAPI backend, Power BI analytics, AWS. Now building She-ield, an AI-powered women's safety platform. Fun fact: I automate anything I have to do twice."/>
+<img src="about-terminal (1).svg" alt="Terminal: whoami, Dhruv Aggarwal. Focus: machine learning and AI, FastAPI backend, Power BI analytics, AWS. Now building She-ield, an AI-powered women's safety platform. Fun fact: I automate anything I have to do twice."/>
 </div>
 
 <img src="aqua.svg" alt="" width="100%"/>
