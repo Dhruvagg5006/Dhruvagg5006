@@ -99,7 +99,7 @@
 <img src="https://skillicons.dev/icons?i=py" width="72" height="72" alt="Python" title="Python"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=fastapi" width="72" height="72" alt="FastAPI" title="FastAPI"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=pytorch" width="72" height="72" alt="PyTorch" title="PyTorch"/>&nbsp;
-<img src="./assets/icons/tech/powerbi.svg" width="72" height="72" alt="Power BI" title="Power BI"/>&nbsp;
+<img src="powerbi.svg" width="72" height="72" alt="Power BI" title="Power BI"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=aws" width="72" height="72" alt="AWS" title="AWS"/>
 </p>
 
