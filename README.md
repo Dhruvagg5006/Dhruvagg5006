@@ -24,8 +24,8 @@
 
 ## 🛠️ Skills & Technologies
 
-### 🧑‍💻 Languages
-<img src="languages.svg" alt="Python, Java, C, JavaScript, HTML5, CSS3"/>
+
+<!-- <img src="languages.svg" alt="Python, Java, C, JavaScript, HTML5, CSS3"/> -->
 
 ### 🤖 AI / ML / Data
 <img src="ai.svg" alt="PyTorch, scikit-learn, OpenCV, NumPy, Pandas, SciPy, Plotly, Streamlit, Power BI"/>
