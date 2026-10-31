@@ -6,8 +6,8 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="./assets/icons/linkedin.svg" alt="LinkedIn" height="40"/></a>&nbsp;
-<a href="https://github.com/Dhruvagg5006"><img src="./assets/icons/github.svg" alt="GitHub" height="40"/></a>&nbsp;
+<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="linkedin.svg" alt="LinkedIn" height="40"/></a>&nbsp;
+<a href="https://github.com/Dhruvagg5006"><img src="github.svg" alt="GitHub" height="40"/></a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=Dhruvagg5006&label=Profile%20Views&color=2c5364&style=for-the-badge" alt="Profile views"/>
 
 </div>
@@ -76,8 +76,8 @@
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="./assets/icons/linkedin.svg" alt="LinkedIn" height="44"/></a>&nbsp;&nbsp;
-<a href="https://github.com/Dhruvagg5006"><img src="./assets/icons/github.svg" alt="GitHub" height="44"/></a>
+<a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="linkedin.svg" alt="LinkedIn" height="44"/></a>&nbsp;&nbsp;
+<a href="https://github.com/Dhruvagg5006"><img src="github.svg" alt="GitHub" height="44"/></a>
 
 <br/><br/>
 
