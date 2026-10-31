@@ -41,15 +41,15 @@
 <p align="center">
 <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" title="PyTorch"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" title="TensorFlow"/>&nbsp;
-<img src="./assets/icons/tech/sklearn.svg" width="48" height="48" alt="scikit-learn" title="scikit-learn"/>&nbsp;
-<img src="./assets/icons/tech/opencv.svg" width="48" height="48" alt="OpenCV" title="OpenCV"/>&nbsp;
-<img src="./assets/icons/tech/numpy.svg" width="48" height="48" alt="NumPy" title="NumPy"/>&nbsp;
-<img src="./assets/icons/tech/pandas.svg" width="48" height="48" alt="pandas" title="pandas"/>&nbsp;
-<img src="./assets/icons/tech/scipy.svg" width="48" height="48" alt="SciPy" title="SciPy"/>&nbsp;
-<img src="./assets/icons/tech/plotly.svg" width="48" height="48" alt="Plotly" title="Plotly"/>&nbsp;
-<img src="./assets/icons/tech/jupyter.svg" width="48" height="48" alt="Jupyter" title="Jupyter"/>&nbsp;
-<img src="./assets/icons/tech/streamlit.svg" width="48" height="48" alt="Streamlit" title="Streamlit"/>&nbsp;
-<img src="./assets/icons/tech/powerbi.svg" width="48" height="48" alt="Power BI" title="Power BI"/>
+<img src="sklearn.svg" width="48" height="48" alt="scikit-learn" title="scikit-learn"/>&nbsp;
+<img src="opencv.svg" width="48" height="48" alt="OpenCV" title="OpenCV"/>&nbsp;
+<img src="numpy.svg" width="48" height="48" alt="NumPy" title="NumPy"/>&nbsp;
+<img src="pandas.svg" width="48" height="48" alt="pandas" title="pandas"/>&nbsp;
+<img src="scipy.svg" width="48" height="48" alt="SciPy" title="SciPy"/>&nbsp;
+<img src="plotly.svg" width="48" height="48" alt="Plotly" title="Plotly"/>&nbsp;
+<img src="jupyter.svg" width="48" height="48" alt="Jupyter" title="Jupyter"/>&nbsp;
+<img src="streamlit.svg" width="48" height="48" alt="Streamlit" title="Streamlit"/>&nbsp;
+<img src="powerbi.svg" width="48" height="48" alt="Power BI" title="Power BI"/>
 </p>
 
 <h3 align="center">⚙️ Backend</h3>
@@ -57,7 +57,7 @@
 <p align="center">
 <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" title="FastAPI"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=flask" width="48" height="48" alt="Flask" title="Flask"/>&nbsp;
-<img src="./assets/icons/tech/twilio.svg" width="48" height="48" alt="Twilio" title="Twilio"/>
+<img src="twilio.svg" width="48" height="48" alt="Twilio" title="Twilio"/>
 </p>
 
 <h3 align="center">🎨 Frontend</h3>
