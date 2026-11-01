@@ -6,6 +6,10 @@
 
 <br/>
 
+<!-- <a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="linkedin.svg" alt="LinkedIn" height="40"/></a>&nbsp;
+<a href="https://github.com/Dhruvagg5006"><img src="github.svg" alt="GitHub" height="40"/></a>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=Dhruvagg5006&label=Profile%20Views&color=2c5364&style=for-the-badge" alt="Profile views"/> -->
+
 </div>
 
 <img src="rainbow.svg" alt="" width="100%"/>
@@ -117,7 +121,7 @@
 | [**Credit-Card-Fraud-Detection**](https://github.com/Dhruvagg5006/Credit-Card-Fraud-Detection) | ML model to flag fraudulent transactions | Jupyter · scikit-learn |
 | [**Smart_Expense_Tracker**](https://github.com/Dhruvagg5006/Smart_Expense_Tracker) | Expense tracking & analysis | Jupyter · Pandas |
 
-<img src="aqua.svg" alt="" width="100%"/>
+<img src="./assets/dividers/aqua.svg" alt="" width="100%"/>
 
 ## 📈 Activity
 
@@ -140,6 +144,8 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/dhruv-aggarwal-768664314"><img src="linkedin.svg" alt="LinkedIn" height="44"/></a>&nbsp;&nbsp;
+<!-- TODO: replace YOUR_EMAIL@gmail.com with your real Gmail address -->
+<a href="mailto:YOUR_EMAIL@gmail.com"><img src="gmail.svg" alt="Gmail" height="44"/></a>&nbsp;&nbsp;
 <a href="https://github.com/Dhruvagg5006"><img src="github.svg" alt="GitHub" height="44"/></a>
 
 <br/><br/>
