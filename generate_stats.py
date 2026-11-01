@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Generates dark-theme profile stat cards into ./assets using the GitHub GraphQL API.
+"""Generates dark-theme profile stat cards using the GitHub GraphQL API.
 
 Env:
-  GITHUB_TOKEN  API token (a PAT in the STATS_TOKEN secret also counts private contributions)
-  GH_USER       defaults to Dhruvagg5006
+  GITHUB_TOKEN      API token (a PAT in the STATS_TOKEN secret also counts private contributions)
+  GH_USER           defaults to Dhruvagg5006
+  STATS_START_YEAR  first year to count contributions from (default 2024)
+
 Without data, zeroed cards are written so the images never break.
 """
 import os
@@ -14,6 +16,7 @@ from xml.sax.saxutils import escape as esc
 
 USER = os.environ.get("GH_USER", "Dhruvagg5006")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
+START_YEAR = int(os.environ.get("STATS_START_YEAR", "2024"))
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = ROOT
 os.makedirs(OUT, exist_ok=True)
@@ -21,17 +24,25 @@ os.makedirs(OUT, exist_ok=True)
 FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
 NS = 'xmlns="http://www.w3.org/2000/svg"'
 
-QUERY = """
-query($login:String!){
+# GitHub only allows a one-year window per contributionsCollection, so we query year by year.
+QUERY_CAL = """
+query($login:String!,$from:DateTime!,$to:DateTime!){
   user(login:$login){
     name
-    contributionsCollection{
+    contributionsCollection(from:$from, to:$to){
       totalCommitContributions
       restrictedContributionsCount
       totalPullRequestContributions
       totalIssueContributions
       contributionCalendar{ totalContributions weeks{ contributionDays{ date contributionCount } } }
     }
+  }
+}
+"""
+QUERY_REPOS = """
+query($login:String!){
+  user(login:$login){
+    name
     repositories(ownerAffiliations:OWNER, isFork:false, first:100, orderBy:{field:PUSHED_AT, direction:DESC}){
       totalCount
       nodes{ stargazerCount languages(first:8, orderBy:{field:SIZE, direction:DESC}){ edges{ size node{ name color } } } }
@@ -41,45 +52,61 @@ query($login:String!){
 """
 
 
+def gql(query, variables):
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query, "variables": variables}).encode(),
+        headers={"Authorization": f"bearer {TOKEN}", "Content-Type": "application/json", "User-Agent": "profile-stats"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)["data"]["user"]
+
+
 def fetch():
     if not TOKEN:
         return None
     try:
-        req = urllib.request.Request(
-            "https://api.github.com/graphql",
-            data=json.dumps({"query": QUERY, "variables": {"login": USER}}).encode(),
-            headers={"Authorization": f"bearer {TOKEN}", "Content-Type": "application/json", "User-Agent": "profile-stats"},
-        )
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return json.load(r)["data"]["user"]
+        repos = gql(QUERY_REPOS, {"login": USER})
+        now = dt.datetime.now(dt.timezone.utc)
+        days, tot = {}, dict(commits=0, private=0, prs=0, issues=0)
+        for year in range(START_YEAR, now.year + 1):
+            frm = dt.datetime(year, 1, 1, tzinfo=dt.timezone.utc)
+            to = min(dt.datetime(year, 12, 31, 23, 59, 59, tzinfo=dt.timezone.utc), now)
+            u = gql(QUERY_CAL, {"login": USER, "from": frm.isoformat(), "to": to.isoformat()})
+            cc = u["contributionsCollection"]
+            for w in cc["contributionCalendar"]["weeks"]:
+                for d in w["contributionDays"]:
+                    days[dt.date.fromisoformat(d["date"])] = d["contributionCount"]
+            tot["commits"] += cc["totalCommitContributions"]
+            tot["private"] += cc["restrictedContributionsCount"]
+            tot["prs"] += cc["totalPullRequestContributions"]
+            tot["issues"] += cc["totalIssueContributions"]
+        return dict(name=repos["name"], repos=repos["repositories"], days=days, tot=tot)
     except Exception as e:  # noqa: BLE001
         print("API error:", e)
         return None
 
 
-def parse(u):
+def parse(raw):
     today = dt.date.today()
-    if not u:
-        days = [(today - dt.timedelta(days=364 - i), 0) for i in range(365)]
+    start = dt.date(START_YEAR, 1, 1)
+    if not raw:
+        n = (today - start).days + 1
+        days = [(start + dt.timedelta(days=i), 0) for i in range(n)]
         return dict(name="Dhruv Aggarwal", days=days, total=0, commits=0, private=0, prs=0, issues=0, stars=0, repos=0, langs={})
-    cc = u["contributionsCollection"]
-    days = sorted(
-        (dt.date.fromisoformat(d["date"]), d["contributionCount"])
-        for w in cc["contributionCalendar"]["weeks"]
-        for d in w["contributionDays"]
-    )
+    days = sorted((d, c) for d, c in raw["days"].items() if start <= d <= today)
     langs, stars = {}, 0
-    for r in u["repositories"]["nodes"]:
+    for r in raw["repos"]["nodes"]:
         stars += r["stargazerCount"]
         for e in r["languages"]["edges"]:
             n = e["node"]
             size, color = langs.get(n["name"], (0, n["color"] or "#8b949e"))
             langs[n["name"]] = (size + e["size"], color)
+    t = raw["tot"]
     return dict(
-        name=u["name"] or USER, days=days, total=cc["contributionCalendar"]["totalContributions"],
-        commits=cc["totalCommitContributions"], private=cc["restrictedContributionsCount"],
-        prs=cc["totalPullRequestContributions"], issues=cc["totalIssueContributions"],
-        stars=stars, repos=u["repositories"]["totalCount"], langs=langs,
+        name=raw["name"] or USER, days=days, total=sum(c for _, c in days),
+        commits=t["commits"], private=t["private"], prs=t["prs"], issues=t["issues"],
+        stars=stars, repos=raw["repos"]["totalCount"], langs=langs,
     )
 
 
@@ -121,6 +148,39 @@ def card(w, h, inner, defs=""):
 def write(name, s):
     with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
         f.write(s)
+
+
+# ----------------------------------------------------------------------------- activity graph
+def seg_lengths(pts, steps=60):
+    """Arc length of each cubic segment of the smoothed path (used to time the travelling pointer)."""
+    out = []
+    for (xa, ya), (xb, yb) in zip(pts, pts[1:]):
+        xm = (xa + xb) / 2
+        p = [(xa, ya), (xm, ya), (xm, yb), (xb, yb)]
+        prev, ln = p[0], 0.0
+        for k in range(1, steps + 1):
+            t = k / steps
+            mt = 1 - t
+            x = mt**3 * p[0][0] + 3 * mt * mt * t * p[1][0] + 3 * mt * t * t * p[2][0] + t**3 * p[3][0]
+            y = mt**3 * p[0][1] + 3 * mt * mt * t * p[1][1] + 3 * mt * t * t * p[2][1] + t**3 * p[3][1]
+            ln += ((x - prev[0]) ** 2 + (y - prev[1]) ** 2) ** 0.5
+            prev = (x, y)
+        out.append(ln)
+    return out
+
+
+def windows_to_anim(windows, dur, begin):
+    """Discrete 0/1 opacity animation for a list of (start, end) windows in 0..1 of the cycle."""
+    ev = {0.0: 0}
+    for s, e in sorted(windows):
+        ev[max(0.0, s)] = 1
+        ev[min(1.0, e)] = 0
+    ev[1.0] = 0
+    times = sorted(ev)
+    return (
+        f'<animate attributeName="opacity" calcMode="discrete" values="{";".join(str(ev[t]) for t in times)}" '
+        f'keyTimes="{";".join(f"{t:.5f}" for t in times)}" dur="{dur}s" begin="{begin}s" repeatCount="indefinite"/>'
+    )
 
 
 def activity(s):
@@ -172,29 +232,87 @@ def activity(s):
             f'<text x="{cx + w / 2:.0f}" y="75" text-anchor="middle" font-size="11.5" fill="#e6edf3">{esc(text)}</text>'
         )
         cx += w + 12
+
+    # ---- travelling pointer: glides along the curve, pausing exactly on every day, with a tooltip --------
+    BEGIN, STEP = 2.2, 0.38                       # start after the line has drawn in; seconds per day
+    seg = seg_lengths(pts)
+    total_len = sum(seg) or 1.0
+    frac = [0.0]
+    for ln in seg:
+        frac.append(frac[-1] + ln / total_len)
+    frac[-1] = 1.0
+    fwd = frac
+    kp = fwd + fwd[::-1][1:]                      # forward then back (ping-pong) => seamless loop
+    m = len(kp)
+    kt = [i / (m - 1) for i in range(m)]
+    DUR = round(STEP * (m - 1), 2)
+    kp_s = ";".join(f"{v:.5f}" for v in kp)
+    kt_s = ";".join(f"{v:.5f}" for v in kt)
+    motion = (
+        f'<animateMotion dur="{DUR}s" begin="{{b}}s" repeatCount="indefinite" calcMode="linear" '
+        f'path="{path}" keyPoints="{kp_s}" keyTimes="{kt_s}"/>'
+    )
+    trail = ""
+    for k, (r, op) in enumerate([(3.4, 0.55), (2.8, 0.38), (2.2, 0.24), (1.6, 0.12)], start=1):
+        trail += (
+            f'<circle r="{r}" fill="#c4b5fd" opacity="{op}" cx="0" cy="0">'
+            f'{motion.format(b=round(BEGIN + 0.1 * k, 2))}</circle>'
+        )
+    pointer = (
+        f'<g opacity="0"><set attributeName="opacity" to="1" begin="{BEGIN}s"/>{trail}'
+        f'<g><circle r="13" fill="#8b5cf6" opacity="0.45" filter="url(#gl)">'
+        f'<animate attributeName="r" values="11;16;11" dur="1.6s" repeatCount="indefinite"/></circle>'
+        f'<circle r="8.5" fill="none" stroke="#ff2bd6" stroke-width="1.6">'
+        f'<animate attributeName="r" values="7;11;7" dur="1.6s" repeatCount="indefinite"/>'
+        f'<animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>'
+        f'<circle r="4.6" fill="#ffffff" stroke="#00e5ff" stroke-width="2"/>'
+        f'{motion.format(b=BEGIN)}</g></g>'
+    )
+    # tooltip pills (one per day, shown while the pointer is on that day)
+    tips = ""
+    half = 0.5 / (m - 1)
+    for i, ((d, v), (px, py)) in enumerate(zip(last, pts)):
+        label = f"{fmt(d)} · {v} contribution{'s' if v != 1 else ''}"
+        wd = 24 + len(label) * 6.1
+        tx = min(max(px, 40 + wd / 2), 820 - wd / 2)
+        ty = py - 50
+        wins = [(kt[i] - half, kt[i] + half)]
+        if i not in (0, n - 1):
+            wins.append((kt[m - 1 - i] - half, kt[m - 1 - i] + half))
+        elif i == 0:
+            wins.append((1 - half, 1.0))
+        tips += (
+            f'<g opacity="0">{windows_to_anim(wins, DUR, BEGIN)}'
+            f'<rect x="{tx - wd / 2:.1f}" y="{ty:.1f}" width="{wd:.1f}" height="22" rx="11" fill="#0d1117" stroke="#8b5cf6" stroke-opacity="0.8"/>'
+            f'<text x="{tx:.1f}" y="{ty + 15:.1f}" text-anchor="middle" font-size="11" fill="#e6edf3">{esc(label)}</text>'
+            f'<path d="M{px - 4:.1f} {ty + 22:.1f} L{px:.1f} {ty + 28:.1f} L{px + 4:.1f} {ty + 22:.1f} Z" fill="#8b5cf6" fill-opacity="0.8"/></g>'
+        )
+
     defs = (
         '<linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="820" y2="0">'
         '<stop offset="0" stop-color="#00e5ff"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient>'
         '<linearGradient id="fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.35"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient>'
-        '<filter id="gl" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="3"/></filter>'
+        '<filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>'
         '<linearGradient id="tt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>'
     )
+    draw = '<animate attributeName="stroke-dashoffset" from="1" to="0" dur="2s" fill="freeze"/>'
     inner = (
         f'<text x="40" y="38" font-size="20" font-weight="700" fill="url(#tt)">{esc(s["name"])}\'s Contribution Graph</text>'
-        f'<text x="820" y="36" text-anchor="end" font-size="11" fill="#8b949e">last 31 days · {s["total"]} this year · updated {fmt(dt.date.today())}</text>'
+        f'<text x="820" y="36" text-anchor="end" font-size="11" fill="#8b949e">last 31 days · {s["total"]} since {START_YEAR} · updated {fmt(dt.date.today())}</text>'
         f"{chip_svg}{grid}{xl}"
-        f'<path d="{area}" fill="url(#fl)"/>'
-        f'<path d="{path}" fill="none" stroke="url(#ln)" stroke-width="4" filter="url(#gl)" opacity="0.8"/>'
-        f'<path d="{path}" fill="none" stroke="url(#ln)" stroke-width="2.5" stroke-linecap="round"/>'
-        f"{dots}{peak}"
+        f'<path d="{area}" fill="url(#fl)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="1.6s" fill="freeze"/></path>'
+        f'<path d="{path}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" fill="none" stroke="url(#ln)" stroke-width="4" filter="url(#gl)" opacity="0.8">{draw}</path>'
+        f'<path d="{path}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" fill="none" stroke="url(#ln)" stroke-width="2.5" stroke-linecap="round">{draw}</path>'
+        f"{dots}{peak}{tips}{pointer}"
     )
     write("activity-graph.svg", card(W, H, inner, defs))
 
 
+# ----------------------------------------------------------------------------- other cards
 def stats(s):
     rows = [
         ("⭐", "Stars earned", s["stars"]),
-        ("📝", "Commits (year)", s["commits"]),
+        ("📝", f"Commits (since {START_YEAR})", s["commits"]),
         ("🔒", "Private contribs", s["private"]),
         ("🔀", "Pull requests", s["prs"]),
         ("🐞", "Issues", s["issues"]),
